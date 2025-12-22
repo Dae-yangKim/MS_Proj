@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ms-proj-env"
+version = "0.1.0"
+description = ""
+authors = ["Dae-yangKim <102850893+Dae-yangKim@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.3.3"
+numpy = "^2.4.0"
+matplotlib = "^3.10.8"
+seaborn = "^0.13.2"
+scikit-learn = "^1.8.0"
+praw = "^7.8.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
